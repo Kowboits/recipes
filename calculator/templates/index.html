@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список блюд</title>
+
+</head>
+<body>
+<h1>Список блюд:</h1>
+
+    {% for url, data in urls.items %}
+        <a href="{{ data }}">{{ data }}</a>
+        <br>
+    {% endfor %}
+
+
+</body>
+</html>
